@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+    // const make = () => [];
+
+// const set = (map, key, value) => {
+//   map[key] = value;
+//   if (map[key] && hasCollision(map, key)) {
+//     return false;
+//   }
+//   return true;
+// };
+
+// const getIndex = () => {
+//   let map = [];
+//   const hash = crc32.str("key");
+//   const index = Math.abs(hash) % 1000;
+//   map[index] = ["key", "value"];
+//   console.log(map[index]);
+// };
+
+// const hasCollision = (map, key) => {
+//   const index = getIndex(key);
+//   const [currentKey] = map[index];
+//   console.log(map[index]);
+//   return currentKey !== key;
+// };
+
+// const get = (map, key, defaultValue = null) => {
+//   if (key in map) {
+//     return map[key];
+//   }
+//   return defaultValue;
+// };
+
+// const map = make();
+// set(map, "key2", "value2");
+// console.log(getIndex("1"));
+// console.log(hasCollision());
+// // // console.log(getCollision(map, "1"));
+// // let result = get(map, "key");
+// // console.log(result); // => null
+
+// // result = get(map, "key", "default_value");
+// // console.log(result); // => "default_value"
+
+// set(map, "key2", "value2");
+// // result = get(map, "key2");
+// console.log(result); // => "value2"
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Sans+Tagbanwa&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Carsharing</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <!-- <div class="container header"> -->
+                <div class="header-logo">
+                    <img class="icon" src="./assets/img/icon.jpg" alt="">
+                </div>
+                <div class="header-nav">
+                    <ul>
+                        <li>Автопарк</li>
+                        <li>Тарифы</li>
+                        <li>Города</li>
+                        <li>Контакты</li>
+                    </ul>
+                </div>
+
+            <!-- </div> -->
+        </div>
+        <div class="bcg-image">
+            <div class="bcg-image__content">
+                <p class="bcg-image__title">
+                    Каршеринг - это удобно! Пользуйся
+                </p>
+                <a class="bcg-image__btn" href="#">Скачивай наше приложение</a>
+                <button type="button" class="btn">Cick</button>
+            </div>
+        </div>
+        <div class="container">
+            <div class="content">
+                <div class="main-photo">
+                    <div class="main-photo__description">
+                        <h2 class="cars-new__title">BMW</h2>
+                        <div class="cars-new__info">
+                            <div class="cars-new__block-left">
+                                <h3>поездка</h3>
+                                <p>от&nbsp; <strong>10 Р</strong>/мин</p>
+                            </div>
+                            <div class="cars-new__block-right">
+                                <h3>ожидание</h3>
+                                <p>от&nbsp; <strong>5 Р</strong> /мин</p>
+                            </div>
+                        </div>
+                        <p class="cars-new__decs">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Architecto non necessitatibus nam perferendis consequatur maiores ullam tempore incidunt,
+                            saepe
+                            reiciendis laboriosam, dignissimos id,
+                            eligendi sapiente consequuntur mollitia voluptates nulla obcaecati.</p>
+                    </div>
+                    <div class="main-photo__img">
+                        <img src="./assets/img/bmw.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="photo-gallary">
+                <div>
+                    <img src="./assets/img/audi.png" alt="">
+                    <p>Ауди</p>
+                    <p>2500 р/сутки</p>
+                </div>
+                <div>
+                    <img src="./assets/img/bmw.png" alt="">
+                    <p>БМВ</p>
+                    <p>2500 р/сутки</p>
+                </div>
+                <div>
+                    <img src="./assets/img/mers.png" alt="">
+                    <p>Мерседес-бенз</p>
+                    <p>3000 р/сутки</p>
+                </div>
+                <div>
+                    <img src="./assets/img/porsche.png" alt="">
+                    <p>Порше</p>
+                    <p>3000 р/сутки</p>
+                </div>
+            </div>
+        </div>
+        <div class="app-download">
+            <div class="app-download__img">
+                <img src="./assets/img/car-sharing-login.png" alt="">
+            </div>
+            <div class="app-download__decs">
+                <h3 class="anchor">Скачивай приложения для удобства</h3>
+                <ul>
+                    <li>Установи приложение.</li>
+                    <li>Пройди регистрацию.</li>
+                    <li>После проверки документов отправляйся в путь.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-icons">
+                <img src="./assets/img/instagram.png" alt="">
+                <img src="./assets/img/vkontakte.png" alt="">
+                <img src="./assets/img/whatsapp.png" alt="">
+                <img src="./assets/img/telegram.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

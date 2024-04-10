@@ -1,0 +1,121 @@
+:root {
+    font-family: "Montserrat" sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.icon {
+    width: 100px;
+}
+
+.header {
+    font-family: "Montserrat";
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(90deg, rgba(81,102,68,1) 0%, rgba(92,23,23,1) 100%);
+}
+
+.header-nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.bcg-image {
+    background-image: url(./assets/img/site_slider_filename.jpg);
+    background-size: cover;
+    height: 600px;
+}
+
+.bcg-image__content {
+    font-family: "Montserrat";
+    position: absolute;
+    top: 300px;
+    left: 50%;
+}
+
+.bcg-image__title {
+    color: #fff; 
+    font-size: 72px;
+    line-height: 72px;
+}
+
+.bcg-image__btn {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.photo-gallary {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.photo-gallary img{
+    width: 400px;
+    height: 250px;
+}
+
+.footer {
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-icons img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.main-photo {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.main-photo__description{
+    font-family: "Montserrat";
+    width: 470px;
+}
+
+.cars-new__title {
+    font-size: 42px;
+    line-height: 49px;
+    margin-bottom: 24px;
+}
+
+.cars-new__info {
+    display: flex;  
+    margin-bottom: 42px;
+}
+
+.cars-new__block-left {
+    margin-right: 30px;
+}
+
+.cars-new__desc {
+    display: block;
+}
+
+.app-download {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;    
+    overflow: hidden;
+}
